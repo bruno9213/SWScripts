@@ -1,6 +1,6 @@
 module.exports = {
-  title: 'RTA bot',
-  tagline: 'The newest RTA bot for Summoners War',
+  title: 'Automate your RTA matches',
+  tagline: 'The newest RTA script for Summoners War',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
@@ -8,22 +8,26 @@ module.exports = {
   projectName: 'docusaurus', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'My Site',
+      title: 'RTA2Us',
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
       },
       links: [
         {
-          to: 'docs/doc1',
+          to: '/',
           activeBasePath: 'docs',
-          label: 'Docs',
+          label: 'Home',
           position: 'left',
         },
-        {to: 'blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
-          label: 'GitHub',
+          to: 'blog',
+          label: 'Reviews',
+          position: 'left'
+        },
+        {
+          href: '',
+          label: 'Buy now',
           position: 'right',
         },
       ],
@@ -75,7 +79,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} RTA2Us, Bruno Ferreira`,
     },
   },
   presets: [
